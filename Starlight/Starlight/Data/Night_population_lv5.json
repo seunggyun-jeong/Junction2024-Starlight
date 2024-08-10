@@ -1,0 +1,342 @@
+[
+    {
+        "geohash": "wy7uw",
+        "operated_at": "2024-06-15 20:00:00",
+        "population": "54",
+        "latitude": "35.98604883466448",
+        "longitude": "129.32434354509627",
+        "si": "경상북도",
+        "gungu": "포항시 남구",
+        "dong": "연일읍"
+    },
+    {
+        "geohash": "wy7ux",
+        "operated_at": "2024-06-15 20:00:00",
+        "population": "2011",
+        "latitude": "35.98326231767862",
+        "longitude": "129.36317567243594",
+        "si": "경상북도",
+        "gungu": "포항시 남구",
+        "dong": "대송면"
+    },
+    {
+        "geohash": "wy7uy",
+        "operated_at": "2024-06-29 22:00:00",
+        "population": "2070",
+        "latitude": "36.016316057242186",
+        "longitude": "129.32013445613788",
+        "si": "경상북도",
+        "gungu": "포항시 남구",
+        "dong": "연일읍"
+    },
+    {
+        "geohash": "wy7uz",
+        "operated_at": "2024-06-12 21:00:00",
+        "population": "278395",
+        "latitude": "36.02077141188337",
+        "longitude": "129.3602970827741",
+        "si": "경상북도",
+        "gungu": "포항시 남구",
+        "dong": "연일읍"
+    },
+    {
+        "geohash": "wy7v4",
+        "operated_at": "2024-06-14 20:00:00",
+        "population": "28",
+        "latitude": "36.066153390066965",
+        "longitude": "129.14840698242188",
+        "si": "경상북도",
+        "gungu": "포항시 북구",
+        "dong": "기계면"
+    },
+    {
+        "geohash": "wy7v5",
+        "operated_at": "2024-06-14 20:00:00",
+        "population": "88",
+        "latitude": "36.0739860534668",
+        "longitude": "129.1819725036621",
+        "si": "경상북도",
+        "gungu": "포항시 북구",
+        "dong": "기계면"
+    },
+    {
+        "geohash": "wy7v7",
+        "operated_at": "2024-06-14 20:00:00",
+        "population": "38",
+        "latitude": "36.0848825118121",
+        "longitude": "129.18044707354377",
+        "si": "경상북도",
+        "gungu": "포항시 북구",
+        "dong": "기계면"
+    },
+    {
+        "geohash": "wy7vh",
+        "operated_at": "2024-06-29 21:00:00",
+        "population": "146",
+        "latitude": "36.06691198528937",
+        "longitude": "129.21986669864296",
+        "si": "경상북도",
+        "gungu": "포항시 북구",
+        "dong": "기계면"
+    },
+    {
+        "geohash": "wy7vj",
+        "operated_at": "2024-06-29 21:00:00",
+        "population": "66",
+        "latitude": "36.0385799407959",
+        "longitude": "129.28438186645508",
+        "si": "경상북도",
+        "gungu": "포항시 남구",
+        "dong": "연일읍"
+    },
+    {
+        "geohash": "wy7vk",
+        "operated_at": "2024-06-14 20:00:00",
+        "population": "4",
+        "latitude": "36.08013153076172",
+        "longitude": "129.20076370239258",
+        "si": "경상북도",
+        "gungu": "포항시 북구",
+        "dong": "기계면"
+    },
+    {
+        "geohash": "wy7vn",
+        "operated_at": "2024-06-29 21:00:00",
+        "population": "562",
+        "latitude": "36.043355102938506",
+        "longitude": "129.31842634191062",
+        "si": "경상북도",
+        "gungu": "포항시 남구",
+        "dong": "연일읍"
+    },
+    {
+        "geohash": "wy7vp",
+        "operated_at": "2024-06-04 20:00:00",
+        "population": "167119",
+        "latitude": "36.04961342023264",
+        "longitude": "129.36435130814192",
+        "si": "경상북도",
+        "gungu": "포항시 남구",
+        "dong": "이동"
+    },
+    {
+        "geohash": "wy7vq",
+        "operated_at": "2024-06-20 20:00:00",
+        "population": "110",
+        "latitude": "36.113244106895046",
+        "longitude": "129.3173669513903",
+        "si": "경상북도",
+        "gungu": "포항시 북구",
+        "dong": "신광면"
+    },
+    {
+        "geohash": "wy7vr",
+        "operated_at": "2024-06-08 20:00:00",
+        "population": "14484",
+        "latitude": "36.10041335483767",
+        "longitude": "129.34738920679632",
+        "si": "경상북도",
+        "gungu": "포항시 북구",
+        "dong": "흥해읍"
+    },
+    {
+        "geohash": "wy7vt",
+        "operated_at": "2024-06-20 20:00:00",
+        "population": "46",
+        "latitude": "36.12861360822405",
+        "longitude": "129.26906040736608",
+        "si": "경상북도",
+        "gungu": "포항시 북구",
+        "dong": "신광면"
+    },
+    {
+        "geohash": "wy7vw",
+        "operated_at": "2024-06-20 20:00:00",
+        "population": "82",
+        "latitude": "36.13676968742819",
+        "longitude": "129.31946249569162",
+        "si": "경상북도",
+        "gungu": "포항시 북구",
+        "dong": "신광면"
+    },
+    {
+        "geohash": "wy7vx",
+        "operated_at": "2024-06-07 20:00:00",
+        "population": "690",
+        "latitude": "36.13944115177278",
+        "longitude": "129.34472668555475",
+        "si": "경상북도",
+        "gungu": "포항시 북구",
+        "dong": "흥해읍"
+    },
+    {
+        "geohash": "wy7vz",
+        "operated_at": "2024-06-12 22:00:00",
+        "population": "328",
+        "latitude": "36.190532786505564",
+        "longitude": "129.34657164982386",
+        "si": "경상북도",
+        "gungu": "포항시 북구",
+        "dong": "청하면"
+    },
+    {
+        "geohash": "wy7yp",
+        "operated_at": "2024-06-12 21:00:00",
+        "population": "406",
+        "latitude": "36.23257246173796",
+        "longitude": "129.36270510564086",
+        "si": "경상북도",
+        "gungu": "포항시 북구",
+        "dong": "송라면"
+    },
+    {
+        "geohash": "wy7yr",
+        "operated_at": "2024-06-12 22:00:00",
+        "population": "64",
+        "latitude": "36.26187324523926",
+        "longitude": "129.37379837036133",
+        "si": "경상북도",
+        "gungu": "포항시 북구",
+        "dong": "송라면"
+    },
+    {
+        "geohash": "wykh2",
+        "operated_at": "2024-06-14 20:00:00",
+        "population": "586",
+        "latitude": "35.94190537588937",
+        "longitude": "129.3985960824149",
+        "si": "경상북도",
+        "gungu": "포항시 남구",
+        "dong": "오천읍"
+    },
+    {
+        "geohash": "wykh6",
+        "operated_at": "2024-06-01 20:00:00",
+        "population": "140",
+        "latitude": "35.932196208408904",
+        "longitude": "129.48105403355189",
+        "si": "경상북도",
+        "gungu": "포항시 남구",
+        "dong": "장기면"
+    },
+    {
+        "geohash": "wykh7",
+        "operated_at": "2024-06-01 20:00:00",
+        "population": "34",
+        "latitude": "35.92810392379761",
+        "longitude": "129.51348781585693",
+        "si": "경상북도",
+        "gungu": "포항시 남구",
+        "dong": "장기면"
+    },
+    {
+        "geohash": "wykh8",
+        "operated_at": "2024-06-15 20:00:00",
+        "population": "168268",
+        "latitude": "35.97027008038679",
+        "longitude": "129.405466287769",
+        "si": "경상북도",
+        "gungu": "포항시 남구",
+        "dong": "대송면"
+    },
+    {
+        "geohash": "wykh9",
+        "operated_at": "2024-06-01 20:00:00",
+        "population": "1930",
+        "latitude": "35.98256514622615",
+        "longitude": "129.43948808607163",
+        "si": "경상북도",
+        "gungu": "포항시 남구",
+        "dong": "오천읍"
+    },
+    {
+        "geohash": "wykhb",
+        "operated_at": "2024-06-14 22:00:00",
+        "population": "26460",
+        "latitude": "36.003393928086304",
+        "longitude": "129.3889710142068",
+        "si": "경상북도",
+        "gungu": "포항시 남구",
+        "dong": "괴동동"
+    },
+    {
+        "geohash": "wykhc",
+        "operated_at": "2024-06-02 21:00:00",
+        "population": "334",
+        "latitude": "35.9923716024919",
+        "longitude": "129.4209350239147",
+        "si": "경상북도",
+        "gungu": "포항시 남구",
+        "dong": "일월동"
+    },
+    {
+        "geohash": "wykhd",
+        "operated_at": "2024-06-01 20:00:00",
+        "population": "166",
+        "latitude": "35.988077070654896",
+        "longitude": "129.47321961565714",
+        "si": "경상북도",
+        "gungu": "포항시 남구",
+        "dong": "장기면"
+    },
+    {
+        "geohash": "wykhe",
+        "operated_at": "2024-06-12 21:00:00",
+        "population": "20",
+        "latitude": "35.98045757838658",
+        "longitude": "129.53986849103654",
+        "si": "경상북도",
+        "gungu": "포항시 남구",
+        "dong": "구룡포읍"
+    },
+    {
+        "geohash": "wykhs",
+        "operated_at": "2024-06-12 21:00:00",
+        "population": "2",
+        "latitude": "35.97790718078613",
+        "longitude": "129.55095291137695",
+        "si": "경상북도",
+        "gungu": "포항시 남구",
+        "dong": "구룡포읍"
+    },
+    {
+        "geohash": "wykj0",
+        "operated_at": "2024-06-12 20:00:00",
+        "population": "86989",
+        "latitude": "36.064697518950624",
+        "longitude": "129.3812814235248",
+        "si": "경상북도",
+        "gungu": "포항시 남구",
+        "dong": "송도동"
+    },
+    {
+        "geohash": "wykj2",
+        "operated_at": "2024-06-29 20:00:00",
+        "population": "27162",
+        "latitude": "36.0853522620927",
+        "longitude": "129.3880291360187",
+        "si": "경상북도",
+        "gungu": "포항시 북구",
+        "dong": "장성동"
+    },
+    {
+        "geohash": "wykj8",
+        "operated_at": "2024-06-26 20:00:00",
+        "population": "316",
+        "latitude": "36.148101907027396",
+        "longitude": "129.39191617463766",
+        "si": "경상북도",
+        "gungu": "포항시 북구",
+        "dong": "흥해읍"
+    },
+    {
+        "geohash": "wykjb",
+        "operated_at": "2024-06-16 20:00:00",
+        "population": "134",
+        "latitude": "36.17192268371582",
+        "longitude": "129.39569473266602",
+        "si": "경상북도",
+        "gungu": "포항시 북구",
+        "dong": "청하면"
+    }
+]
