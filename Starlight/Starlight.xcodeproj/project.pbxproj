@@ -26,6 +26,9 @@
 		13AEC97E2C675651009B59C0 /* PoliceStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AEC97D2C675651009B59C0 /* PoliceStation.swift */; };
 		13AEC9802C6756C1009B59C0 /* LightMeasurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AEC97F2C6756C1009B59C0 /* LightMeasurement.swift */; };
 		13AEC9822C67570E009B59C0 /* PopulationMeasurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AEC9812C67570E009B59C0 /* PopulationMeasurement.swift */; };
+		8BF2D18F2C6786FE0068A71E /* Real_Day_Combined_Safety_Grades.json in Resources */ = {isa = PBXBuildFile; fileRef = 8BF2D18C2C6786FE0068A71E /* Real_Day_Combined_Safety_Grades.json */; };
+		8BF2D1902C6786FE0068A71E /* Real_Dawn_Combined_Safety_Grades.json in Resources */ = {isa = PBXBuildFile; fileRef = 8BF2D18D2C6786FE0068A71E /* Real_Dawn_Combined_Safety_Grades.json */; };
+		8BF2D1912C6786FE0068A71E /* Real_Night_Combined_Safety_Grades.json in Resources */ = {isa = PBXBuildFile; fileRef = 8BF2D18E2C6786FE0068A71E /* Real_Night_Combined_Safety_Grades.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +52,9 @@
 		13AEC97D2C675651009B59C0 /* PoliceStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliceStation.swift; sourceTree = "<group>"; };
 		13AEC97F2C6756C1009B59C0 /* LightMeasurement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightMeasurement.swift; sourceTree = "<group>"; };
 		13AEC9812C67570E009B59C0 /* PopulationMeasurement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopulationMeasurement.swift; sourceTree = "<group>"; };
+		8BF2D18C2C6786FE0068A71E /* Real_Day_Combined_Safety_Grades.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Real_Day_Combined_Safety_Grades.json; sourceTree = "<group>"; };
+		8BF2D18D2C6786FE0068A71E /* Real_Dawn_Combined_Safety_Grades.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Real_Dawn_Combined_Safety_Grades.json; sourceTree = "<group>"; };
+		8BF2D18E2C6786FE0068A71E /* Real_Night_Combined_Safety_Grades.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Real_Night_Combined_Safety_Grades.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +137,9 @@
 		13AEC9682C675554009B59C0 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				8BF2D18D2C6786FE0068A71E /* Real_Dawn_Combined_Safety_Grades.json */,
+				8BF2D18C2C6786FE0068A71E /* Real_Day_Combined_Safety_Grades.json */,
+				8BF2D18E2C6786FE0068A71E /* Real_Night_Combined_Safety_Grades.json */,
 				13AEC9792C6755BF009B59C0 /* Day_population_lv5.json */,
 				13AEC9772C6755B8009B59C0 /* Night_population_lv5.json */,
 				13AEC9752C6755B0009B59C0 /* Dawn_population_lv5.json */,
@@ -205,12 +214,15 @@
 				13AEC96A2C675578009B59C0 /* CCTV.json in Resources */,
 				13AEC96E2C67558A009B59C0 /* StreetLight.json in Resources */,
 				13AEC96C2C675582009B59C0 /* PoliceOffice.json in Resources */,
+				8BF2D1912C6786FE0068A71E /* Real_Night_Combined_Safety_Grades.json in Resources */,
 				13AEC9762C6755B0009B59C0 /* Dawn_population_lv5.json in Resources */,
 				13AEC9722C67559E009B59C0 /* Night_lightLux_lv5.json in Resources */,
 				13AEC9782C6755B8009B59C0 /* Night_population_lv5.json in Resources */,
 				13AEC95B2C6752F3009B59C0 /* Preview Assets.xcassets in Resources */,
 				13AEC9582C6752F3009B59C0 /* Assets.xcassets in Resources */,
 				13AEC9742C6755A5009B59C0 /* Day_lightLux_lv5.json in Resources */,
+				8BF2D1902C6786FE0068A71E /* Real_Dawn_Combined_Safety_Grades.json in Resources */,
+				8BF2D18F2C6786FE0068A71E /* Real_Day_Combined_Safety_Grades.json in Resources */,
 				13AEC9702C675596009B59C0 /* Dawn_lightLux_lv5.json in Resources */,
 				13AEC97A2C6755BF009B59C0 /* Day_population_lv5.json in Resources */,
 			);
