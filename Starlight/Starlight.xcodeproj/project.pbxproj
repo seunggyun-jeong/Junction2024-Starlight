@@ -26,6 +26,8 @@
 		13AEC97E2C675651009B59C0 /* PoliceStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AEC97D2C675651009B59C0 /* PoliceStation.swift */; };
 		13AEC9802C6756C1009B59C0 /* LightMeasurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AEC97F2C6756C1009B59C0 /* LightMeasurement.swift */; };
 		13AEC9822C67570E009B59C0 /* PopulationMeasurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AEC9812C67570E009B59C0 /* PopulationMeasurement.swift */; };
+		13AEC9842C675A1F009B59C0 /* GeoHashUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AEC9832C675A1F009B59C0 /* GeoHashUtility.swift */; };
+		13AEC9862C675A4F009B59C0 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AEC9852C675A4F009B59C0 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +51,8 @@
 		13AEC97D2C675651009B59C0 /* PoliceStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliceStation.swift; sourceTree = "<group>"; };
 		13AEC97F2C6756C1009B59C0 /* LightMeasurement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightMeasurement.swift; sourceTree = "<group>"; };
 		13AEC9812C67570E009B59C0 /* PopulationMeasurement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopulationMeasurement.swift; sourceTree = "<group>"; };
+		13AEC9832C675A1F009B59C0 /* GeoHashUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoHashUtility.swift; sourceTree = "<group>"; };
+		13AEC9852C675A4F009B59C0 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				13AEC9632C67535E009B59C0 /* JsonParser.swift */,
+				13AEC9832C675A1F009B59C0 /* GeoHashUtility.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -112,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				13AEC9552C6752F0009B59C0 /* ContentView.swift */,
+				13AEC9852C675A4F009B59C0 /* MapView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -230,6 +236,8 @@
 				13AEC9542C6752F0009B59C0 /* StarlightApp.swift in Sources */,
 				13AEC9802C6756C1009B59C0 /* LightMeasurement.swift in Sources */,
 				13AEC9642C67535E009B59C0 /* JsonParser.swift in Sources */,
+				13AEC9862C675A4F009B59C0 /* MapView.swift in Sources */,
+				13AEC9842C675A1F009B59C0 /* GeoHashUtility.swift in Sources */,
 				13AEC9822C67570E009B59C0 /* PopulationMeasurement.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
