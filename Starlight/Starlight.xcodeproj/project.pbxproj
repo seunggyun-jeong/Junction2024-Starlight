@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		125B48AA2C67F2CF008541A9 /* NaverAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125B48A92C67F2CF008541A9 /* NaverAPI.swift */; };
+		125B48AC2C67F2D6008541A9 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125B48AB2C67F2D6008541A9 /* SearchView.swift */; };
+		125B48AE2C67F309008541A9 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125B48AD2C67F309008541A9 /* Color+Extension.swift */; };
+		125B48B02C6800FD008541A9 /* TestGeoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125B48AF2C6800FD008541A9 /* TestGeoView.swift */; };
 		13AEC9542C6752F0009B59C0 /* StarlightApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AEC9532C6752F0009B59C0 /* StarlightApp.swift */; };
 		13AEC9562C6752F0009B59C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AEC9552C6752F0009B59C0 /* ContentView.swift */; };
 		13AEC9582C6752F3009B59C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13AEC9572C6752F3009B59C0 /* Assets.xcassets */; };
@@ -20,18 +24,19 @@
 		13AEC97E2C675651009B59C0 /* PoliceStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AEC97D2C675651009B59C0 /* PoliceStation.swift */; };
 		13AEC9802C6756C1009B59C0 /* LightMeasurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AEC97F2C6756C1009B59C0 /* LightMeasurement.swift */; };
 		13AEC9822C67570E009B59C0 /* PopulationMeasurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AEC9812C67570E009B59C0 /* PopulationMeasurement.swift */; };
+		13AEC9842C675A1F009B59C0 /* GeoHashUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AEC9832C675A1F009B59C0 /* GeoHashUtility.swift */; };
+		13AEC9862C675A4F009B59C0 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AEC9852C675A4F009B59C0 /* MapView.swift */; };
 		8BF2D1952C6798270068A71E /* Day_Safety_Grades.json in Resources */ = {isa = PBXBuildFile; fileRef = 8BF2D1922C6798270068A71E /* Day_Safety_Grades.json */; };
 		8BF2D1962C6798270068A71E /* Night_Safety_Grades.json in Resources */ = {isa = PBXBuildFile; fileRef = 8BF2D1932C6798270068A71E /* Night_Safety_Grades.json */; };
 		8BF2D1972C6798270068A71E /* Dawn_Safety_Grades.json in Resources */ = {isa = PBXBuildFile; fileRef = 8BF2D1942C6798270068A71E /* Dawn_Safety_Grades.json */; };
-		13AEC9842C675A1F009B59C0 /* GeoHashUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AEC9832C675A1F009B59C0 /* GeoHashUtility.swift */; };
-		13AEC9862C675A4F009B59C0 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AEC9852C675A4F009B59C0 /* MapView.swift */; };
-		8BF2D18F2C6786FE0068A71E /* Real_Day_Combined_Safety_Grades.json in Resources */ = {isa = PBXBuildFile; fileRef = 8BF2D18C2C6786FE0068A71E /* Real_Day_Combined_Safety_Grades.json */; };
-		8BF2D1902C6786FE0068A71E /* Real_Dawn_Combined_Safety_Grades.json in Resources */ = {isa = PBXBuildFile; fileRef = 8BF2D18D2C6786FE0068A71E /* Real_Dawn_Combined_Safety_Grades.json */; };
-		8BF2D1912C6786FE0068A71E /* Real_Night_Combined_Safety_Grades.json in Resources */ = {isa = PBXBuildFile; fileRef = 8BF2D18E2C6786FE0068A71E /* Real_Night_Combined_Safety_Grades.json */; };
 		8BF2D1992C679CC60068A71E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2D1982C679CC60068A71E /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		125B48A92C67F2CF008541A9 /* NaverAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NaverAPI.swift; path = ../../../../../Desktop/NaverAPI.swift; sourceTree = "<group>"; };
+		125B48AB2C67F2D6008541A9 /* SearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchView.swift; path = ../../../../../Desktop/SearchView.swift; sourceTree = "<group>"; };
+		125B48AD2C67F309008541A9 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		125B48AF2C6800FD008541A9 /* TestGeoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGeoView.swift; sourceTree = "<group>"; };
 		13AEC9502C6752F0009B59C0 /* Starlight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Starlight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13AEC9532C6752F0009B59C0 /* StarlightApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarlightApp.swift; sourceTree = "<group>"; };
 		13AEC9552C6752F0009B59C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,14 +51,11 @@
 		13AEC97D2C675651009B59C0 /* PoliceStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliceStation.swift; sourceTree = "<group>"; };
 		13AEC97F2C6756C1009B59C0 /* LightMeasurement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightMeasurement.swift; sourceTree = "<group>"; };
 		13AEC9812C67570E009B59C0 /* PopulationMeasurement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopulationMeasurement.swift; sourceTree = "<group>"; };
+		13AEC9832C675A1F009B59C0 /* GeoHashUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoHashUtility.swift; sourceTree = "<group>"; };
+		13AEC9852C675A4F009B59C0 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		8BF2D1922C6798270068A71E /* Day_Safety_Grades.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Day_Safety_Grades.json; sourceTree = "<group>"; };
 		8BF2D1932C6798270068A71E /* Night_Safety_Grades.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Night_Safety_Grades.json; sourceTree = "<group>"; };
 		8BF2D1942C6798270068A71E /* Dawn_Safety_Grades.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Dawn_Safety_Grades.json; sourceTree = "<group>"; };
-		13AEC9832C675A1F009B59C0 /* GeoHashUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoHashUtility.swift; sourceTree = "<group>"; };
-		13AEC9852C675A4F009B59C0 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
-		8BF2D18C2C6786FE0068A71E /* Real_Day_Combined_Safety_Grades.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Real_Day_Combined_Safety_Grades.json; sourceTree = "<group>"; };
-		8BF2D18D2C6786FE0068A71E /* Real_Dawn_Combined_Safety_Grades.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Real_Dawn_Combined_Safety_Grades.json; sourceTree = "<group>"; };
-		8BF2D18E2C6786FE0068A71E /* Real_Night_Combined_Safety_Grades.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Real_Night_Combined_Safety_Grades.json; sourceTree = "<group>"; };
 		8BF2D1982C679CC60068A71E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,6 +113,7 @@
 			children = (
 				13AEC9632C67535E009B59C0 /* JsonParser.swift */,
 				13AEC9832C675A1F009B59C0 /* GeoHashUtility.swift */,
+				125B48AD2C67F309008541A9 /* Color+Extension.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -120,7 +123,9 @@
 			children = (
 				13AEC9552C6752F0009B59C0 /* ContentView.swift */,
 				8BF2D1982C679CC60068A71E /* MainView.swift */,
+				125B48AB2C67F2D6008541A9 /* SearchView.swift */,
 				13AEC9852C675A4F009B59C0 /* MapView.swift */,
+				125B48AF2C6800FD008541A9 /* TestGeoView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -131,6 +136,7 @@
 				13AEC9662C6753F2009B59C0 /* CCTVInfo.swift */,
 				13AEC97B2C67561C009B59C0 /* SecurityLight.swift */,
 				13AEC97D2C675651009B59C0 /* PoliceStation.swift */,
+				125B48A92C67F2CF008541A9 /* NaverAPI.swift */,
 				13AEC9812C67570E009B59C0 /* PopulationMeasurement.swift */,
 				13AEC97F2C6756C1009B59C0 /* LightMeasurement.swift */,
 			);
@@ -227,12 +233,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				13AEC97E2C675651009B59C0 /* PoliceStation.swift in Sources */,
+				125B48AE2C67F309008541A9 /* Color+Extension.swift in Sources */,
 				8BF2D1992C679CC60068A71E /* MainView.swift in Sources */,
 				13AEC9562C6752F0009B59C0 /* ContentView.swift in Sources */,
+				125B48AA2C67F2CF008541A9 /* NaverAPI.swift in Sources */,
 				13AEC97C2C67561C009B59C0 /* SecurityLight.swift in Sources */,
 				13AEC9672C6753F2009B59C0 /* CCTVInfo.swift in Sources */,
 				13AEC9542C6752F0009B59C0 /* StarlightApp.swift in Sources */,
+				125B48B02C6800FD008541A9 /* TestGeoView.swift in Sources */,
 				13AEC9802C6756C1009B59C0 /* LightMeasurement.swift in Sources */,
+				125B48AC2C67F2D6008541A9 /* SearchView.swift in Sources */,
 				13AEC9642C67535E009B59C0 /* JsonParser.swift in Sources */,
 				13AEC9862C675A4F009B59C0 /* MapView.swift in Sources */,
 				13AEC9842C675A1F009B59C0 /* GeoHashUtility.swift in Sources */,
@@ -295,7 +305,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -352,7 +362,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -370,7 +380,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Starlight/Preview Content\"";
-				DEVELOPMENT_TEAM = G7X65ZSJ3J;
+				DEVELOPMENT_TEAM = H54Z863265;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -400,7 +410,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Starlight/Preview Content\"";
-				DEVELOPMENT_TEAM = G7X65ZSJ3J;
+				DEVELOPMENT_TEAM = H54Z863265;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
