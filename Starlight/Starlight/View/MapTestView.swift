@@ -27,6 +27,17 @@ struct MapTestView: View {
           .foregroundStyle(info.grade.color.opacity(0.4))
       }
       
+      ForEach(SharedModel.shared.cctvInfo, id: \.number) { cctv in
+        let longitude = cctv.longitude as NSString
+        let latitude = cctv.latitude as NSString
+        
+        Annotation("", coordinate: CLLocationCoordinate2D(latitude: latitude.doubleValue, longitude: longitude.doubleValue)) {
+          Circle()
+            .foregroundStyle(.red)
+            
+        }
+      }
+      
       if let route = viewModel.route {
         MapPolyline(coordinates: [])
         MapPolyline(route)
@@ -42,7 +53,6 @@ struct MapTestView: View {
     }
     .onAppear {
       locationManager.requestLocation()
-      viewModel.getDirections()
     }
   }
 }

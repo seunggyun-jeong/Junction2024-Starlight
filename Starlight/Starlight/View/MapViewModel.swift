@@ -21,23 +21,23 @@ class MapViewModel {
   private let startCoordinate = CLLocationCoordinate2D(latitude: 37.5665, longitude: 126.9780) // 서울
   private let endCoordinate = CLLocationCoordinate2D(latitude: 35.1796, longitude: 129.0756) // 부산
   
-  func getDirections() {
+  func getDirections(start: CLLocationCoordinate2D, end: CLLocationCoordinate2D) {
     let request = MKDirections.Request()
-    request.source = MKMapItem(placemark: MKPlacemark(coordinate: startCoordinate))
-    request.destination = MKMapItem(placemark: MKPlacemark(coordinate: endCoordinate))
+    request.source = MKMapItem(placemark: MKPlacemark(coordinate: start))
+    request.destination = MKMapItem(placemark: MKPlacemark(coordinate: end))
     request.transportType = .walking
     
     let directions = MKDirections(request: request)
     directions.calculate { [weak self] response, error in
-      guard let self = self, let route = response?.routes.first else { return }
+      guard let point = self, let route = response?.routes.first else { return }
       
       DispatchQueue.main.async {
-        self.route = route
-        self.setRegionToFitRoute()
+        point.route = route
+        point.setRegionToFitRoute()
         
-        self.annotations = [
-          Place(name: "Start", coordinate: self.startCoordinate),
-          Place(name: "End", coordinate: self.endCoordinate)
+        point.annotations = [
+          Place(name: "Start", coordinate: point.startCoordinate),
+          Place(name: "End", coordinate: point.endCoordinate)
         ]
       }
     }
