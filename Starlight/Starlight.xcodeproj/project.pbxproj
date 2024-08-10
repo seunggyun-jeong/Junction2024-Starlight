@@ -29,6 +29,7 @@
 		8BF2D18F2C6786FE0068A71E /* Real_Day_Combined_Safety_Grades.json in Resources */ = {isa = PBXBuildFile; fileRef = 8BF2D18C2C6786FE0068A71E /* Real_Day_Combined_Safety_Grades.json */; };
 		8BF2D1902C6786FE0068A71E /* Real_Dawn_Combined_Safety_Grades.json in Resources */ = {isa = PBXBuildFile; fileRef = 8BF2D18D2C6786FE0068A71E /* Real_Dawn_Combined_Safety_Grades.json */; };
 		8BF2D1912C6786FE0068A71E /* Real_Night_Combined_Safety_Grades.json in Resources */ = {isa = PBXBuildFile; fileRef = 8BF2D18E2C6786FE0068A71E /* Real_Night_Combined_Safety_Grades.json */; };
+		8BF2D1992C679CC60068A71E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2D1982C679CC60068A71E /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		8BF2D18C2C6786FE0068A71E /* Real_Day_Combined_Safety_Grades.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Real_Day_Combined_Safety_Grades.json; sourceTree = "<group>"; };
 		8BF2D18D2C6786FE0068A71E /* Real_Dawn_Combined_Safety_Grades.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Real_Dawn_Combined_Safety_Grades.json; sourceTree = "<group>"; };
 		8BF2D18E2C6786FE0068A71E /* Real_Night_Combined_Safety_Grades.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Real_Night_Combined_Safety_Grades.json; sourceTree = "<group>"; };
+		8BF2D1982C679CC60068A71E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				13AEC9552C6752F0009B59C0 /* ContentView.swift */,
+				8BF2D1982C679CC60068A71E /* MainView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13AEC97E2C675651009B59C0 /* PoliceStation.swift in Sources */,
+				8BF2D1992C679CC60068A71E /* MainView.swift in Sources */,
 				13AEC9562C6752F0009B59C0 /* ContentView.swift in Sources */,
 				13AEC97C2C67561C009B59C0 /* SecurityLight.swift in Sources */,
 				13AEC9672C6753F2009B59C0 /* CCTVInfo.swift in Sources */,
@@ -384,6 +388,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -413,6 +418,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
