@@ -22,9 +22,14 @@
 		13AEC9822C67570E009B59C0 /* PopulationMeasurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AEC9812C67570E009B59C0 /* PopulationMeasurement.swift */; };
 		13AEC9842C675A1F009B59C0 /* GeoHashUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AEC9832C675A1F009B59C0 /* GeoHashUtility.swift */; };
 		13AEC9862C675A4F009B59C0 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AEC9852C675A4F009B59C0 /* MapView.swift */; };
-		13AEC98A2C67A3E5009B59C0 /* Day_Safety_Grades.json in Resources */ = {isa = PBXBuildFile; fileRef = 13AEC9872C67A3E5009B59C0 /* Day_Safety_Grades.json */; };
-		13AEC98B2C67A3E5009B59C0 /* Night_Safety_Grades.json in Resources */ = {isa = PBXBuildFile; fileRef = 13AEC9882C67A3E5009B59C0 /* Night_Safety_Grades.json */; };
-		13AEC98C2C67A3E5009B59C0 /* Dawn_Safety_Grades.json in Resources */ = {isa = PBXBuildFile; fileRef = 13AEC9892C67A3E5009B59C0 /* Dawn_Safety_Grades.json */; };
+		13AEC98E2C67B0B0009B59C0 /* SafetyInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AEC98D2C67B0B0009B59C0 /* SafetyInfo.swift */; };
+		13AEC9902C67B21D009B59C0 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AEC98F2C67B21D009B59C0 /* MapViewModel.swift */; };
+		13AEC9982C67B33E009B59C0 /* SharedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AEC9972C67B33E009B59C0 /* SharedModel.swift */; };
+		13AEC99A2C67B546009B59C0 /* MapTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AEC9992C67B546009B59C0 /* MapTestView.swift */; };
+		13AEC99C2C67C774009B59C0 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AEC99B2C67C774009B59C0 /* LocationManager.swift */; };
+		13AEC9A02C67F053009B59C0 /* New_Day_Safety_Grades.json in Resources */ = {isa = PBXBuildFile; fileRef = 13AEC99D2C67F053009B59C0 /* New_Day_Safety_Grades.json */; };
+		13AEC9A12C67F053009B59C0 /* New_Dawn_Safety_Grades.json in Resources */ = {isa = PBXBuildFile; fileRef = 13AEC99E2C67F053009B59C0 /* New_Dawn_Safety_Grades.json */; };
+		13AEC9A22C67F053009B59C0 /* New_Night_Safety_Grades.json in Resources */ = {isa = PBXBuildFile; fileRef = 13AEC99F2C67F053009B59C0 /* New_Night_Safety_Grades.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,9 +49,14 @@
 		13AEC9812C67570E009B59C0 /* PopulationMeasurement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopulationMeasurement.swift; sourceTree = "<group>"; };
 		13AEC9832C675A1F009B59C0 /* GeoHashUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoHashUtility.swift; sourceTree = "<group>"; };
 		13AEC9852C675A4F009B59C0 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
-		13AEC9872C67A3E5009B59C0 /* Day_Safety_Grades.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Day_Safety_Grades.json; sourceTree = "<group>"; };
-		13AEC9882C67A3E5009B59C0 /* Night_Safety_Grades.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Night_Safety_Grades.json; sourceTree = "<group>"; };
-		13AEC9892C67A3E5009B59C0 /* Dawn_Safety_Grades.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Dawn_Safety_Grades.json; sourceTree = "<group>"; };
+		13AEC98D2C67B0B0009B59C0 /* SafetyInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafetyInfo.swift; sourceTree = "<group>"; };
+		13AEC98F2C67B21D009B59C0 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		13AEC9972C67B33E009B59C0 /* SharedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedModel.swift; sourceTree = "<group>"; };
+		13AEC9992C67B546009B59C0 /* MapTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTestView.swift; sourceTree = "<group>"; };
+		13AEC99B2C67C774009B59C0 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		13AEC99D2C67F053009B59C0 /* New_Day_Safety_Grades.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = New_Day_Safety_Grades.json; sourceTree = "<group>"; };
+		13AEC99E2C67F053009B59C0 /* New_Dawn_Safety_Grades.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = New_Dawn_Safety_Grades.json; sourceTree = "<group>"; };
+		13AEC99F2C67F053009B59C0 /* New_Night_Safety_Grades.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = New_Night_Safety_Grades.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +113,8 @@
 			children = (
 				13AEC9632C67535E009B59C0 /* JsonParser.swift */,
 				13AEC9832C675A1F009B59C0 /* GeoHashUtility.swift */,
+				13AEC9972C67B33E009B59C0 /* SharedModel.swift */,
+				13AEC99B2C67C774009B59C0 /* LocationManager.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -112,6 +124,8 @@
 			children = (
 				13AEC9552C6752F0009B59C0 /* ContentView.swift */,
 				13AEC9852C675A4F009B59C0 /* MapView.swift */,
+				13AEC98F2C67B21D009B59C0 /* MapViewModel.swift */,
+				13AEC9992C67B546009B59C0 /* MapTestView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -124,6 +138,7 @@
 				13AEC97D2C675651009B59C0 /* PoliceStation.swift */,
 				13AEC9812C67570E009B59C0 /* PopulationMeasurement.swift */,
 				13AEC97F2C6756C1009B59C0 /* LightMeasurement.swift */,
+				13AEC98D2C67B0B0009B59C0 /* SafetyInfo.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -131,9 +146,9 @@
 		13AEC9682C675554009B59C0 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				13AEC9892C67A3E5009B59C0 /* Dawn_Safety_Grades.json */,
-				13AEC9872C67A3E5009B59C0 /* Day_Safety_Grades.json */,
-				13AEC9882C67A3E5009B59C0 /* Night_Safety_Grades.json */,
+				13AEC99E2C67F053009B59C0 /* New_Dawn_Safety_Grades.json */,
+				13AEC99D2C67F053009B59C0 /* New_Day_Safety_Grades.json */,
+				13AEC99F2C67F053009B59C0 /* New_Night_Safety_Grades.json */,
 				13AEC96D2C67558A009B59C0 /* StreetLight.json */,
 				13AEC96B2C675581009B59C0 /* PoliceOffice.json */,
 				13AEC9692C675578009B59C0 /* CCTV.json */,
@@ -199,14 +214,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13AEC98B2C67A3E5009B59C0 /* Night_Safety_Grades.json in Resources */,
-				13AEC98C2C67A3E5009B59C0 /* Dawn_Safety_Grades.json in Resources */,
 				13AEC96A2C675578009B59C0 /* CCTV.json in Resources */,
 				13AEC96E2C67558A009B59C0 /* StreetLight.json in Resources */,
 				13AEC96C2C675582009B59C0 /* PoliceOffice.json in Resources */,
+				13AEC9A02C67F053009B59C0 /* New_Day_Safety_Grades.json in Resources */,
 				13AEC95B2C6752F3009B59C0 /* Preview Assets.xcassets in Resources */,
-				13AEC98A2C67A3E5009B59C0 /* Day_Safety_Grades.json in Resources */,
 				13AEC9582C6752F3009B59C0 /* Assets.xcassets in Resources */,
+				13AEC9A12C67F053009B59C0 /* New_Dawn_Safety_Grades.json in Resources */,
+				13AEC9A22C67F053009B59C0 /* New_Night_Safety_Grades.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,14 +234,19 @@
 			files = (
 				13AEC97E2C675651009B59C0 /* PoliceStation.swift in Sources */,
 				13AEC9562C6752F0009B59C0 /* ContentView.swift in Sources */,
+				13AEC99C2C67C774009B59C0 /* LocationManager.swift in Sources */,
 				13AEC97C2C67561C009B59C0 /* SecurityLight.swift in Sources */,
 				13AEC9672C6753F2009B59C0 /* CCTVInfo.swift in Sources */,
 				13AEC9542C6752F0009B59C0 /* StarlightApp.swift in Sources */,
 				13AEC9802C6756C1009B59C0 /* LightMeasurement.swift in Sources */,
+				13AEC9982C67B33E009B59C0 /* SharedModel.swift in Sources */,
 				13AEC9642C67535E009B59C0 /* JsonParser.swift in Sources */,
+				13AEC98E2C67B0B0009B59C0 /* SafetyInfo.swift in Sources */,
 				13AEC9862C675A4F009B59C0 /* MapView.swift in Sources */,
 				13AEC9842C675A1F009B59C0 /* GeoHashUtility.swift in Sources */,
+				13AEC99A2C67B546009B59C0 /* MapTestView.swift in Sources */,
 				13AEC9822C67570E009B59C0 /* PopulationMeasurement.swift in Sources */,
+				13AEC9902C67B21D009B59C0 /* MapViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +383,9 @@
 				DEVELOPMENT_TEAM = G7X65ZSJ3J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app will get your location information.";
+				INFOPLIST_KEY_NSLocationUsageDescription = "This app will get your location information.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app will get your location information.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -392,6 +415,9 @@
 				DEVELOPMENT_TEAM = G7X65ZSJ3J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app will get your location information.";
+				INFOPLIST_KEY_NSLocationUsageDescription = "This app will get your location information.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app will get your location information.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

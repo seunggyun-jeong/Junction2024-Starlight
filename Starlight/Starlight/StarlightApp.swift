@@ -11,7 +11,7 @@ import SwiftUI
 struct StarlightApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MapTestView()
         }
     }
 }
