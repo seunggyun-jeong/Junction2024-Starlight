@@ -30,6 +30,11 @@
 		13AEC9A02C67F053009B59C0 /* New_Day_Safety_Grades.json in Resources */ = {isa = PBXBuildFile; fileRef = 13AEC99D2C67F053009B59C0 /* New_Day_Safety_Grades.json */; };
 		13AEC9A12C67F053009B59C0 /* New_Dawn_Safety_Grades.json in Resources */ = {isa = PBXBuildFile; fileRef = 13AEC99E2C67F053009B59C0 /* New_Dawn_Safety_Grades.json */; };
 		13AEC9A22C67F053009B59C0 /* New_Night_Safety_Grades.json in Resources */ = {isa = PBXBuildFile; fileRef = 13AEC99F2C67F053009B59C0 /* New_Night_Safety_Grades.json */; };
+		8BF2D1952C6798270068A71E /* Day_Safety_Grades.json in Resources */ = {isa = PBXBuildFile; fileRef = 8BF2D1922C6798270068A71E /* Day_Safety_Grades.json */; };
+		8BF2D1962C6798270068A71E /* Night_Safety_Grades.json in Resources */ = {isa = PBXBuildFile; fileRef = 8BF2D1932C6798270068A71E /* Night_Safety_Grades.json */; };
+		8BF2D1972C6798270068A71E /* Dawn_Safety_Grades.json in Resources */ = {isa = PBXBuildFile; fileRef = 8BF2D1942C6798270068A71E /* Dawn_Safety_Grades.json */; };
+		8BF2D1992C679CC60068A71E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2D1982C679CC60068A71E /* MainView.swift */; };
+		8BF2D19B2C67C43E0068A71E /* ChooseLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2D19A2C67C43E0068A71E /* ChooseLocationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +62,11 @@
 		13AEC99D2C67F053009B59C0 /* New_Day_Safety_Grades.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = New_Day_Safety_Grades.json; sourceTree = "<group>"; };
 		13AEC99E2C67F053009B59C0 /* New_Dawn_Safety_Grades.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = New_Dawn_Safety_Grades.json; sourceTree = "<group>"; };
 		13AEC99F2C67F053009B59C0 /* New_Night_Safety_Grades.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = New_Night_Safety_Grades.json; sourceTree = "<group>"; };
+		8BF2D1922C6798270068A71E /* Day_Safety_Grades.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Day_Safety_Grades.json; sourceTree = "<group>"; };
+		8BF2D1932C6798270068A71E /* Night_Safety_Grades.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Night_Safety_Grades.json; sourceTree = "<group>"; };
+		8BF2D1942C6798270068A71E /* Dawn_Safety_Grades.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Dawn_Safety_Grades.json; sourceTree = "<group>"; };
+		8BF2D1982C679CC60068A71E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		8BF2D19A2C67C43E0068A71E /* ChooseLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseLocationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,9 +133,11 @@
 			isa = PBXGroup;
 			children = (
 				13AEC9552C6752F0009B59C0 /* ContentView.swift */,
+				8BF2D1982C679CC60068A71E /* MainView.swift */,
 				13AEC9852C675A4F009B59C0 /* MapView.swift */,
 				13AEC98F2C67B21D009B59C0 /* MapViewModel.swift */,
 				13AEC9992C67B546009B59C0 /* MapTestView.swift */,
+				8BF2D19A2C67C43E0068A71E /* ChooseLocationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -232,7 +244,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BF2D19B2C67C43E0068A71E /* ChooseLocationView.swift in Sources */,
 				13AEC97E2C675651009B59C0 /* PoliceStation.swift in Sources */,
+				8BF2D1992C679CC60068A71E /* MainView.swift in Sources */,
 				13AEC9562C6752F0009B59C0 /* ContentView.swift in Sources */,
 				13AEC99C2C67C774009B59C0 /* LocationManager.swift in Sources */,
 				13AEC97C2C67561C009B59C0 /* SecurityLight.swift in Sources */,
@@ -391,6 +405,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -423,6 +438,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
