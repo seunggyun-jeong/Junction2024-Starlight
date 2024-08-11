@@ -9,7 +9,7 @@ import SwiftUI
 import MapKit
 
 struct MainView: View {
-  @State var destination: String = "Where are you going?"
+  @State var destination: String = ""
   @State var selectPoint: CLLocationCoordinate2D?
   let mapViewModel = MapViewModel()
   
