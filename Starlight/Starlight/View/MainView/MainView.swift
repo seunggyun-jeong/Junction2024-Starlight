@@ -51,7 +51,7 @@ struct MainView: View {
             .frame(width: 15, height: 20)
             .padding(.trailing, 5)
           TextField("Where are you going?", text: $destination)
-                .font(.system(size:20))
+            .font(.system(size:20))
             .fontWeight(.medium)
             .foregroundStyle(Color.text_gray)
           Spacer()
@@ -61,18 +61,23 @@ struct MainView: View {
   
   @ViewBuilder
   var EmergencyButton: some View {
-    RoundedRectangle(cornerRadius: 99)
-          .foregroundStyle(Color.main)
-      .frame(maxWidth: 181, maxHeight: 43)
-      .overlay{
-        HStack{
-          Image(systemName: "sos.circle")
-          Text("Emergency SMS")
-                .font(.system(size:16, weight: .semibold))
+    Button {
+      sendSMS()
+    } label: {
+      RoundedRectangle(cornerRadius: 99)
+        .foregroundStyle(Color.main)
+        .frame(maxWidth: 181, maxHeight: 43)
+        .overlay{
+          HStack{
+            Image(systemName: "sos.circle")
+            Text("Emergency SMS")
+              .font(.system(size:16, weight: .semibold))
+          }
+          //        .padding()
+          .foregroundStyle(.white)
         }
-//        .padding()
-        .foregroundStyle(.white)
-      }
+    }
+    
   }
   
   var destinationInfo: some View {
@@ -124,20 +129,20 @@ struct MainView: View {
     VStack{
       HStack{
         Text("JukDo Police Station")
-              .lineLimit(1)
+          .lineLimit(1)
           .font(.system(size:20))
           .fontWeight(.semibold)
           .foregroundStyle(Color.text_black)
           .padding(.trailing, 8)
-//        Spacer()
+        //        Spacer()
         Image("gray_mage_location")
-              .padding(.trailing, -6)
+          .padding(.trailing, -6)
         Text("My Location")
-              .font(.system(size:16))
+          .font(.system(size:16))
       }
       .foregroundStyle(Color(hex: 0xAAAAAA))
       .padding(.bottom)
-        
+      
       HStack {
         Image("SafeLevel")
         Text("Safety Rating")
@@ -145,7 +150,7 @@ struct MainView: View {
         Spacer()
       }
       .foregroundStyle(Color.text_black)
-        
+      
       HStack(alignment: .top) {
         Image("LocatePin")
         Text("3-1, Jukdo-ro 68beon-gil, Buk-gu, Pohang-si")
@@ -157,10 +162,22 @@ struct MainView: View {
     .background(Color.white, in: RoundedRectangle(cornerRadius: 16))
   }
   
+  func sendSMS() {
+    var manager = LocationManager()
+    
+    manager.requestLocation()
+    
+    let encodedMessage = "Emergency! I need assistance. My current location is:\nlatitude: \(manager.region.latitude)\nlongitude: \(manager.region.longitude)\nPlease send help immediately.".addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? ""
+    
+    if let url = URL(string: "sms:\(112)&body=\(encodedMessage)") {
+      UIApplication.shared.open(url)
+    }
+  }
+  
 }
 
 #Preview {
   NavigationStack {
-    MainView()    
+    MainView()
   }
 }

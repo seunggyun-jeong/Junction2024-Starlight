@@ -15,6 +15,8 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
     span: MKCoordinateSpan(latitudeDelta: 0.1, longitudeDelta: 0.1)
   ))
   
+  @Published var region = CLLocationCoordinate2D(latitude: 37.5665, longitude: 126.9780)
+  
   private let locationManager = CLLocationManager()
   
   override init() {
@@ -38,6 +40,7 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
       )
       print(region)
       self.camera = MapCameraPosition.region(region)
+      self.region = region.center
     }
   }
   
