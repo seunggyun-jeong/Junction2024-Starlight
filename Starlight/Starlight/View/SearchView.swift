@@ -62,7 +62,7 @@ struct BackButton: View {
             )
             .frame(width: 44, height: 44)
             .shadow(
-                color: Color(hex: 0x333333).opacity(0.2),
+                color: Color.text_black.opacity(0.2),
                 radius: CGFloat(0),
                 x: CGFloat(0), y: CGFloat(0)
             )
@@ -80,7 +80,7 @@ struct SearchBar: View {
             .fill(backgroundColor)
             .overlay(
                 HStack {
-                    Image(systemName: iconName)
+                    Image(iconName)
                         .resizable()
                         .frame(width: 18, height: 18)
                         .padding(EdgeInsets(top: 0, leading: 16, bottom: 0, trailing: -10))

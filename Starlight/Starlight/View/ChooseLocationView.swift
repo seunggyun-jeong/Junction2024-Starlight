@@ -11,7 +11,7 @@ struct ChooseLocationView: View {
     var body: some View {
         NavigationStack{
             ZStack {
-                Color.gray.ignoresSafeArea()
+                MapTestView().ignoresSafeArea()
                 VStack{
                     Spacer()
                     ChooseLocation
@@ -20,8 +20,8 @@ struct ChooseLocationView: View {
                 .padding(.horizontal, 16)
                 .toolbar {
                     ToolbarItem(placement: .principal){
-                        Text("경주월드")
-                            .font(.title3)
+                        Text("Jukdo Market")
+                            .font(.system(size: 20, weight: .medium))
                     }
                 }
                 .toolbarBackground(.visible, for: .navigationBar)
@@ -33,18 +33,21 @@ struct ChooseLocationView: View {
     
     @ViewBuilder
     var LocationTitle: some View {
-        Text("경주월드")
+        Text("Jukdo Market")
+            .font(.system(size: 16))
     }
     
     @ViewBuilder
     var ChooseLocation: some View {
         VStack(alignment: .leading) {
-            Text("경주월드")
-                .font(.title2)
+            Text("Jukdo Market")
+                .font(.system(size: 20))
                 .fontWeight(.semibold)
             HStack {
                 Image("LocatePin")
-                Text("경북 경주시 보문로 544")
+                Text("13 Jukdosijang 13-gil, Buk-gu, Pohang-si")
+                    .font(.system(size: 14))
+                    .foregroundStyle(Color(hex: 0x777777))
             }
             .padding(.bottom)
             Button(action: {
@@ -52,11 +55,11 @@ struct ChooseLocationView: View {
             },
                    label: {
                 RoundedRectangle(cornerRadius: 99)
-                    .stroke(.orange)
+                    .stroke(Color(hex: 0xFF7A00))
                     .overlay{
-                        Text("도착지로 선택")
+                        Text("Set as Destination")
                             .fontWeight(.semibold)
-                            .foregroundStyle(.orange)
+                            .foregroundStyle(Color(hex: 0xFF7A00))
                     }
                 
             }).frame(maxHeight: 48)
