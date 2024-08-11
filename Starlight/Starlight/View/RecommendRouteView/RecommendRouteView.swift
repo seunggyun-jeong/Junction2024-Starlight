@@ -134,8 +134,7 @@ struct RecommendRouteView: View {
         Spacer()
         
         HStack {
-          Image("Icon_CCTV")
-            .foregroundStyle(.gray)
+          Image("icon_cctv_gray")
           Text("\(mapViewModel.cctvOnRoute.count)")
             .font(.caption)
             .foregroundStyle(.gray)
@@ -145,8 +144,7 @@ struct RecommendRouteView: View {
         .background(.quinary, in: RoundedRectangle(cornerRadius: 99))
         
         HStack{
-          Image("Icon_walllamp")
-            .foregroundStyle(.gray)
+          Image("icon_lamp_gray")
           Text("\(mapViewModel.lampOnRoute.count)")
             .font(.caption)
             .foregroundStyle(.gray)
@@ -156,8 +154,7 @@ struct RecommendRouteView: View {
         .background(.quinary, in: RoundedRectangle(cornerRadius: 99))
         
         HStack{
-          Image("Icon_PoliceBadge")
-            .foregroundStyle(.gray)
+          Image("icon_police_gray")
           Text("1")
             .font(.caption)
             .foregroundStyle(.gray)
@@ -172,7 +169,7 @@ struct RecommendRouteView: View {
       },
              label: {
         RoundedRectangle(cornerRadius: 99)
-              .foregroundStyle(Color(hex: 0xFF7A00))
+              .foregroundStyle(Color.main)
           .overlay{
             Text("Follow Route")
               .fontWeight(.semibold)

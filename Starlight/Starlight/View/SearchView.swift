@@ -62,7 +62,7 @@ struct BackButton: View {
             )
             .frame(width: 44, height: 44)
             .shadow(
-                color: Color(hex: 0x333333).opacity(0.2),
+                color: Color.text_black.opacity(0.2),
                 radius: CGFloat(0),
                 x: CGFloat(0), y: CGFloat(0)
             )
