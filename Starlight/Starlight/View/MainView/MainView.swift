@@ -72,7 +72,7 @@ struct MainView: View {
       .overlay{
         HStack{
           Image(systemName: "sos.circle")
-          Text("Emergency Call")
+          Text("Emergency SMS")
                 .font(.system(size:16, weight: .semibold))
         }
 //        .padding()
