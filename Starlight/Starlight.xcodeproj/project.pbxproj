@@ -35,6 +35,7 @@
 		8BF2D19D2C67F57A0068A71E /* RecommendRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2D19C2C67F57A0068A71E /* RecommendRootView.swift */; };
 		8BF2D19F2C6807EF0068A71E /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2D19E2C6807EE0068A71E /* SearchView.swift */; };
 		8BF2D1A12C6808330068A71E /* Color+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2D1A02C6808330068A71E /* Color+Extention.swift */; };
+		8BF2D1A32C682F3B0068A71E /* FollowSafeRouteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2D1A22C682F3B0068A71E /* FollowSafeRouteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,7 @@
 		8BF2D19C2C67F57A0068A71E /* RecommendRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendRootView.swift; sourceTree = "<group>"; };
 		8BF2D19E2C6807EE0068A71E /* SearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		8BF2D1A02C6808330068A71E /* Color+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Extention.swift"; sourceTree = "<group>"; };
+		8BF2D1A22C682F3B0068A71E /* FollowSafeRouteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowSafeRouteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 				8BF2D19A2C67C43E0068A71E /* ChooseLocationView.swift */,
 				8BF2D19C2C67F57A0068A71E /* RecommendRootView.swift */,
 				8BF2D19E2C6807EE0068A71E /* SearchView.swift */,
+				8BF2D1A22C682F3B0068A71E /* FollowSafeRouteView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 				13AEC9542C6752F0009B59C0 /* StarlightApp.swift in Sources */,
 				13AEC9802C6756C1009B59C0 /* LightMeasurement.swift in Sources */,
 				13AEC9982C67B33E009B59C0 /* SharedModel.swift in Sources */,
+				8BF2D1A32C682F3B0068A71E /* FollowSafeRouteView.swift in Sources */,
 				13AEC9642C67535E009B59C0 /* JsonParser.swift in Sources */,
 				13AEC98E2C67B0B0009B59C0 /* SafetyInfo.swift in Sources */,
 				13AEC9862C675A4F009B59C0 /* MapView.swift in Sources */,

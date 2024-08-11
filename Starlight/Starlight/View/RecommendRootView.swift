@@ -96,7 +96,7 @@ struct RecommendRootView: View {
                 }.padding(.horizontal, 16)
                 Spacer()
                 RootInfo.padding(.horizontal, 16)
-            }/*.padding(.horizontal, 16)*/
+            }
         }
     }
     
