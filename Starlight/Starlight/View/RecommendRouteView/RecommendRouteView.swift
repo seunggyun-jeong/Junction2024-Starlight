@@ -38,16 +38,16 @@ struct RecommendRouteView: View {
           .tint(.primary)
 
           SearchBar(
-            iconName: "star.fill",
-            placeholder: "현위치 검색",
+            iconName: "mageLocation",
+            placeholder: "Search Current Location",
             text: $inputText,
             backgroundColor: .white
           )
           .padding(.bottom, 8)
           
           SearchBar(
-            iconName: "star.fill",
-            placeholder: "도착지 검색",
+            iconName: "IconLocationPin",
+            placeholder: "Search Destination",
             text: $directionText,
             backgroundColor: Color(hex: 0xf3f3f3)
           )
@@ -80,7 +80,7 @@ struct RecommendRouteView: View {
                  label: {
             HStack{
               Image(mapViewModel.lampVisibility ? "Icon_WallLamp_white" : "Icon_walllamp")
-              Text("가로등")
+              Text("Streetlight")
                 .font(.subheadline)
                 .fontWeight(.medium)
                 .foregroundStyle(mapViewModel.lampVisibility ? .white : .black)
@@ -96,7 +96,7 @@ struct RecommendRouteView: View {
                  label: {
             HStack{
               Image(mapViewModel.policeStationVisibility ? "Icon_PoliceBadge_white" :"Icon_PoliceBadge")
-              Text("경찰서")
+              Text("Police")
                 .font(.subheadline)
                 .fontWeight(.medium)
                 .foregroundStyle(mapViewModel.policeStationVisibility ? .white : .black)
@@ -119,7 +119,7 @@ struct RecommendRouteView: View {
   @ViewBuilder
   var RootInfo: some View {
     VStack(alignment: .leading) {
-      Text("안심 경로")
+      Text("Safe Route")
         .foregroundStyle(.gray)
         .font(.callout)
         .fontWeight(.semibold)
@@ -172,9 +172,9 @@ struct RecommendRouteView: View {
       },
              label: {
         RoundedRectangle(cornerRadius: 99)
-          .foregroundStyle(.orange)
+              .foregroundStyle(Color(hex: 0xFF7A00))
           .overlay{
-            Text("따라가기")
+            Text("Follow Route")
               .fontWeight(.semibold)
               .foregroundStyle(.white)
           }

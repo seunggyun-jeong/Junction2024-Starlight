@@ -80,7 +80,7 @@ struct SearchBar: View {
             .fill(backgroundColor)
             .overlay(
                 HStack {
-                    Image(systemName: iconName)
+                    Image(iconName)
                         .resizable()
                         .frame(width: 18, height: 18)
                         .padding(EdgeInsets(top: 0, leading: 16, bottom: 0, trailing: -10))

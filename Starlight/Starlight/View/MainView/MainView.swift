@@ -9,7 +9,7 @@ import SwiftUI
 import MapKit
 
 struct MainView: View {
-  @State var destination: String = "어디로 가세요?"
+  @State var destination: String = "Where are you going?"
   @State var selectPoint: CLLocationCoordinate2D?
   let mapViewModel = MapViewModel()
   
@@ -43,17 +43,17 @@ struct MainView: View {
   var SearchRootBox: some View {
     RoundedRectangle(cornerRadius: 16)
       .fill(Color.white)
-      .stroke(LinearGradient(gradient: Gradient(colors: [.yellow, .orange]), startPoint: .leading, endPoint: .trailing), lineWidth: 2)
+      .stroke(LinearGradient(gradient: Gradient(colors: [Color(hex:0xFFE55C), Color.main]), startPoint: .leading, endPoint: .trailing), lineWidth: 2)
       .frame(maxHeight: 52)
       .overlay {
         HStack{
           Image("LOGOImage")
             .frame(width: 15, height: 20)
             .padding(.trailing, 5)
-          TextField("어디로 가세요?", text: $destination)
-            .font(.title2)
+          TextField("Where are you going?", text: $destination)
+                .font(.system(size:20))
             .fontWeight(.medium)
-            .foregroundStyle(Color.gray)
+            .foregroundStyle(Color.text_gray)
           Spacer()
         }.padding()
       }
@@ -62,15 +62,16 @@ struct MainView: View {
   @ViewBuilder
   var EmergencyButton: some View {
     RoundedRectangle(cornerRadius: 99)
-      .foregroundStyle(Color.orange)
-      .frame(maxWidth: 126, maxHeight: 40)
+          .foregroundStyle(Color.main)
+      .frame(maxWidth: 181, maxHeight: 43)
       .overlay{
         HStack{
           Image(systemName: "sos.circle")
-          Text("Emergency")
-            .font(.caption2)
-            .fontWeight(.bold)
-        }.padding().foregroundStyle(.white)
+          Text("Emergency Call")
+                .font(.system(size:16, weight: .semibold))
+        }
+//        .padding()
+        .foregroundStyle(.white)
       }
   }
   
@@ -100,13 +101,15 @@ struct MainView: View {
       } label: {
         RoundedRectangle(cornerRadius: 99)
           .stroke(lineWidth: 1.0)
-          .foregroundStyle(Color.orange)
+          .foregroundStyle(Color.main)
           .frame(maxHeight: 48)
           .overlay{
             HStack{
               Text("Set as Destination")
                 .font(.headline)
-            }.padding().foregroundStyle(.orange)
+            }
+            .padding()
+            .foregroundStyle(Color.main)
           }
       }
       
@@ -121,24 +124,34 @@ struct MainView: View {
     VStack{
       HStack{
         Text("JukDo Police Station")
-          .font(.title2)
+              .lineLimit(1)
+          .font(.system(size:20))
           .fontWeight(.semibold)
-        Spacer()
-        Image(systemName: "dot.scope").foregroundStyle(.gray)
-        Text("내 위치").foregroundStyle(.gray)
+          .foregroundStyle(Color.text_black)
+          .padding(.trailing, 8)
+//        Spacer()
+        Image("gray_mage_location")
+              .padding(.trailing, -6)
+        Text("My Location")
+              .font(.system(size:16))
       }
+      .foregroundStyle(Color(hex: 0xAAAAAA))
       .padding(.bottom)
+        
       HStack {
         Image("SafeLevel")
-        Text("Safe level")
+        Text("Safety Rating")
         Image("SafeLevel1")
         Spacer()
       }
+      .foregroundStyle(Color.text_black)
+        
       HStack(alignment: .top) {
         Image("LocatePin")
         Text("3-1, Jukdo-ro 68beon-gil, Buk-gu, Pohang-si")
         Spacer()
       }
+      .foregroundStyle(Color.text_black)
     }
     .padding(24)
     .background(Color.white, in: RoundedRectangle(cornerRadius: 16))
