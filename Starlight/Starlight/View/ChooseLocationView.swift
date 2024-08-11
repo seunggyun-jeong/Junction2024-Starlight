@@ -11,7 +11,7 @@ struct ChooseLocationView: View {
     var body: some View {
         NavigationStack{
             ZStack {
-                Color.gray.ignoresSafeArea()
+                MapTestView().ignoresSafeArea()
                 VStack{
                     Spacer()
                     ChooseLocation
