@@ -11,7 +11,9 @@ import SwiftUI
 struct StarlightApp: App {
     var body: some Scene {
         WindowGroup {
-            MapTestView()
+            NavigationStack{
+                MainView()
+            }
         }
     }
 }
