@@ -12,6 +12,7 @@ struct MainView: View {
   @State var destination: String = ""
   @State var selectPoint: CLLocationCoordinate2D?
   let mapViewModel = MapViewModel()
+//    @State var myLocation: Bool = true
   
   var body: some View {
     ZStack{
@@ -24,7 +25,11 @@ struct MainView: View {
         HStack{
           EmergencyButton
           Spacer()
-          Image("CurrentLocationImage")
+            Button(action: {
+                selectPoint = nil
+            }, label: {
+                Image("CurrentLocationImage")
+            })
         }
         .padding(.bottom, 9)
         if selectPoint != nil {
@@ -89,16 +94,16 @@ struct MainView: View {
         Spacer()
       }
       .padding(.bottom, 16)
-      
-      HStack {
-        Image("LocatePin")
-          .padding(.trailing, 8)
-        if let lat = selectPoint?.latitude, let lon = selectPoint?.longitude {
-          Text("\(lat), \(lon)")
-        }
-      }
-      .padding(.bottom, 24)
-      
+        
+            HStack {
+              Image("LocatePin")
+                .padding(.trailing, 8)
+              if let lat = selectPoint?.latitude, let lon = selectPoint?.longitude {
+                Text("\(lat), \(lon)")
+              }
+            }
+            .padding(.bottom, 24)
+
       NavigationLink {
         if let lat = selectPoint?.latitude, let lon = selectPoint?.longitude {
           RecommendRouteView(directionText: String(format: "%.4f, %.4f", lat, lon), lat: lat, lon: lon, mapViewModel: mapViewModel)
